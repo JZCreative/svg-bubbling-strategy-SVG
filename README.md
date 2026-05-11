@@ -1,6 +1,6 @@
 # svg-bubbling-strategy-skill
 
-这个文件夹把当前项目里已经验证过的纯 SVG 编组交互方法，整理成一个可复用的 SKILL。
+本项目是基于 GPT/Gemini 已验证过的纯 SVG 编组交互方法，所整理成的一个可复用的 SKILL。
 
 适用范围：
 
@@ -77,10 +77,6 @@ README 内直接保留一份精简白名单速查表：
 - 不使用块级 CSS 与 JS 动画
 - 样式尽量以内联属性或 `style=""` 的最小必要形式书写
 
-白名单完整原始表格文件位于：
-
-- [白名单表格-index.html](file:///Users/yaoyao/Documents/Marshall工作文档/AIGC/Gemini/连续触发认知/白名单表格-index.html)
-
 ### 2. 《融媒体 SVG 交互设计技术规范》
 
 - 建议初学开发者同步掌握 `T/CASME 1609—2024`
@@ -124,17 +120,6 @@ restart="never"
   - 强调点击 / 长按后的内容展开与视觉编排
   - 适合作为“纯 SVG 信息表达 + 交互触发”的案例
 
-截图建议：
-
-- 建议将项目截图保存为：
-  - `screenshots/project-ai-kills-frontend.png`
-
-插图预留：
-
-```md
-![AI 最先杀死的，是谁？示意图](./screenshots/project-ai-kills-frontend.png)
-```
-
 ### 2. 美国公布的 UFO 文件到底有什么？
 
 - 项目链接：[美国公布的 UFO 文件到底有什么？](https://mp.weixin.qq.com/s/yquAobUj1JLLmd0pniN2Dw)
@@ -143,25 +128,4 @@ restart="never"
   - 包含深层 `<g>` 嵌套、对象遭遇链、文本卡、`<image>` 素材接入、收尾字幕等完整方法链
   - 是这套 `svg-bubbling-strategy-skill` 的直接实战来源
 
-截图建议：
-
-- 建议将项目截图保存为：
-  - `screenshots/project-ufo-uap-files.png`
-
-插图预留：
-
-```md
-![美国公布的 UFO 文件到底有什么？示意图](./screenshots/project-ufo-uap-files.png)
-```
-
-## 截图放置建议
-
-如果要把实践截图真正附到 README 中，建议在本技能目录下新增：
-
-```text
-screenshots/
-  project-ai-kills-frontend.png
-  project-ufo-uap-files.png
-```
-
-然后将上面的 Markdown 图片引用解除注释或直接插入到对应小节下。
+以上 SKILLS 由 JZ Creative Studio 验证并总结 · powered by Marshall JI
